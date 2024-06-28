@@ -1,0 +1,15 @@
+const ProtocolChecker= require('./ProtocolChecker.js');
+const pageSpeedInsightsChecker= require('./pageSpeedInsightsChecker.js');
+const h1Checker= require('./h1Checker.js');
+const imgAltChecker= require('./imgAltChecker.js');
+const keywordDensityChecker= require('./KeywordDensity.js');
+const MetaDescriptionChecker= require('./MetaDescription.js');
+const pageTitleChecker= require('./TitleChecker.js');
+const calculateTextToHTMLRatioChecker= require('./TexttoHtml.js');
+const UrlChecker= require('./urlCheck.js');
+const wordCountChecker= require('./wordCount.js');
+const BrokenLinkChecker= require('./BrokenLink.js');
+const altTagKeywordChecker= require('./AltTagKeyword.js');
+const altTagLengthChecker= require('./AltTagLength.js');
+const allFunctions= {ProtocolChecker, pageSpeedInsightsChecker, keywordDensityChecker, h1Checker, MetaDescriptionChecker, calculateTextToHTMLRatioChecker, UrlChecker, wordCountChecker, BrokenLinkChecker, imgAltChecker, pageTitleChecker, altTagKeywordChecker, altTagLengthChecker};
+module.exports= allFunctions;
